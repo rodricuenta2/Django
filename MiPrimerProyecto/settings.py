@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = [
+"https://localhost:8000",
+"https://solid-trout-g49gx76j6p96cv4wq-8000.app.github.dev/",
+]
+
+
 
 # Application definition
 
